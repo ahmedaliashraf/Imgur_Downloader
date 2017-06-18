@@ -9,7 +9,16 @@ import urllib
 import re
 import os
 
-
+def checkIfExists(albumId):
+    fullLink = "https://imgur.com/a/"+albumId
+    try:
+        urllib.request.urlopen(fullLink)
+    except urllib.request.HTTPError as err:
+        erCode = err.code
+        if(erCode==404):
+            print("Album doesn't exists")
+        return erCode
+    
 def findImagesIn(albumId):
     print("Finding images in album....")
     #Create album link
@@ -51,7 +60,11 @@ def download(images,albumId):
     print("Download complete")
     
 def main():
-    findImagesIn("tFOwd")
+    albumId = input("Please enter the id of the album: ")
+    while (len(albumId)==0 or checkIfExists(albumId)!=None):
+        albumId = input("Please enter the id of the album: ")
+    findImagesIn(albumId)
+    #findImagesIn("tFOwd")
     #findImagesIn("UrVN2")
     
 main()    
