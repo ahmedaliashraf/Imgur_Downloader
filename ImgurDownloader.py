@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun  5 07:35:01 2017
+Easily download images from an imgur album
+through album Id regardless of image format.
 
-@author: Ultimate Pro
+Created on Mon Jun  5 07:35:01 2017
+@author: Ahmed Ashraf (ultimat3pro)
 """
 
 import urllib
