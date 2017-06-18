@@ -52,6 +52,6 @@ def download(images,albumId):
     
 def main():
     findImagesIn("tFOwd")
-    findImagesIn("UrVN2")
+    #findImagesIn("UrVN2")
     
 main()    
