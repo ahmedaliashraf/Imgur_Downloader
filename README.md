@@ -26,4 +26,8 @@ for each image.
 I do not claim this is the first to do this. In fact, considering
 the amount of people who want to have this capability, I am rather
 certain that something like this already exists that achieves similar
-results in this manner or completely differently
+results in this manner or completely differently.
+
+Hope this can be as useful to you as it is to me. No executable yet,
+so some assembly required (basically run with a python IDE with the used
+libraries installed).
