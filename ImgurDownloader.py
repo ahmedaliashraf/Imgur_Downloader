@@ -56,8 +56,8 @@ def download(images,albumId):
     
     #Retrieve images following links
     for i in range(len(imgLinks)):
-        print(imgLinks[i])
         urllib.request.urlretrieve(imgLinks[i],path+str(i)+imgB[i][1])
+        print(imgLinks[i]+"  .....done.")
     
     print("Download complete")
     
