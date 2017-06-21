@@ -17,9 +17,7 @@ The user is only asked for the unique id assigned to each
 album (typically the last part of the url pointing to the
 album. For example, "QwP9J" is the id of the album available
 through the link "http://imgur.com/gallery/QwP9J"). The program
-ensures that the album actually exists (Right now, it doesn't 
-distinguish between not existing and not having access-albums 
-may be private-, but I am planning on additing that check). If
+ensures that the album actually exists. If
 the album exists, a folder, named as the id, is created and all
 the images from the album is downloaded inside that folder. The
 images are named with numbers, starting from 0 and incremented 
