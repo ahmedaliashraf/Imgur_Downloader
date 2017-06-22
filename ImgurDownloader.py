@@ -18,7 +18,7 @@ def checkIfExists(albumId):
     except urllib.request.HTTPError as err:
         erCode = err.code
         if(erCode==404):
-            print("Album doesn't exists")
+            print("Album doesn't exist")
         return erCode
     
 def findImagesIn(albumId):
