@@ -28,6 +28,6 @@ the amount of people who want to have this capability, I am rather
 certain that something like this already exists that achieves similar
 results in this manner or completely differently.
 
-Hope this can be as useful to you as it is to me. No executable yet,
-so some assembly required (basically run with a python IDE with the used
-libraries installed).
+Hope this can be as useful to you as it is to me. Just run the 
+ImgurDownloader.bat file and provide album's ID to command prompt.
+Make sure python and necessary libraries are installed properly. 
