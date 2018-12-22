@@ -8,7 +8,7 @@ Created on Mon Jun  5 07:35:01 2017
 @author: Ahmed Ashraf (ultimat3pro)
 """
 
-import urllib
+import urllib.request
 import re
 import os
 
