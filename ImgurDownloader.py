@@ -52,7 +52,7 @@ def download(images,albumId):
         url = "https://i.imgur.com/"+imgB[i][0]+imgB[i][1]
         imgLinks.append(url)
     
-    print("Downloading and saving images...")
+    print("Downloading images...")
     
     #Retrieve images following links
     for i in range(len(imgLinks)):
